@@ -1,1 +1,1 @@
-This is Zapdos' first git project!
+In this project I'm going to build and work on my first web page.
