@@ -2,36 +2,46 @@
     <head>
         <title>Google Homepage</title>
     </head>
-    <style>
+    <style>    
         body {
-            display: flex;
-            flex-wrap: wrap;
             background-color: transparent;
-            
         }        
+        
+        header {
+            display:inline-block;
+            ;
+        }
+
+        .logo {
+            display:block;
+            margin: auto;
+            height: 100px;
+            width:fit-content;
+        }
+
     </style>
     <body>
         <header>
-            <div><a class="top-left" href="">About</a></div>
-            <div><a class="top-left" href="">Store</a></div>
-            <div><a class="top-right" href="">Gmail</a></div>
-            <div><a class="top-right" href="">Images</a></div>
+            <a class="top-left" href="">About</a>
+            <a class="top-left" href="">Store</a>
+            <a class="top-right" href="">Gmail</a>
+            <a class="top-right" href="">Images</a>
             <a id="apps" class="top-right" href=""><img alt="Applications" src= ></a>
             <button id="sign-in" class="top-right">Sign in</button>
         </header>
         <main>
             <img class="logo" alt="Google" src=https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png> 
-            <input placeholder="Search">
+                <input placeholder="Search">
             <button>Google Search</button>
             <button>I'm Feeling Lucky</button>
         </main>
         <footer>
-            <div><a class="bottom-left" href="">Advertising</a></div>
-            <div><a class="bottom-left" href="">Business</a></div>
-            <div><a class="bottom-left" href="">How Search Work</a></div>
-            <div><a class="bottom-right" href="">Privacy</a></div>
-            <div><a class="bottom-right" href="">Terms</a></div>
-            <div><a class="bottom-right" href="">Settings</a></div>
+            <a class="bottom-left" href="">Advertising</a>
+            <a class="bottom-left" href="">Business</a>
+            <a class="bottom-left" href="">How Search Work</a>
+            <a class="bottom-right" href="">Privacy</a>
+            <a class="bottom-right" href="">Terms</a>
+            <a class="bottom-right" href="">Settings</a>
         </footer>
     </body>
 </html>
